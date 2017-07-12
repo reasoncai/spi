@@ -16,5 +16,8 @@ public class Main {
         for (HelloInterface in : loaders) {
             in.sayHello();
         }
+
+        HelloInterface helloInterface = HelloFactory.newHello();
+        helloInterface.sayHello();
     }
 }
