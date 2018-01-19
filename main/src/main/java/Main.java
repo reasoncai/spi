@@ -1,4 +1,5 @@
-import com.cai.api.HelloInterface;
+
+import com.cai.spi.HelloInterface;
 
 import java.util.ServiceLoader;
 
@@ -10,7 +11,6 @@ public class Main {
 
         ServiceLoader<HelloInterface> loaders =
                 ServiceLoader.load(HelloInterface.class);
-
         for (HelloInterface in : loaders) {
             in.sayHello();
         }

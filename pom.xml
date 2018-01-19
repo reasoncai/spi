@@ -25,6 +25,7 @@
     <modules>
         <module>interface</module>
         <module>impl</module>
+        <module>impl2</module>
         <module>main</module>
     </modules>
 </project>
